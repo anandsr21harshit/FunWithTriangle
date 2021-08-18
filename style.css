@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar  */
+
+.navbar{
+    background-color: rgb(132, 0, 255);
+    color: white;
+    padding: 10px;
+}
+.header{
+    font-size: 2rem;
+    margin: 10px;
+}
+.menu{
+    text-align: right;
+    padding: 10px;
+}
+.items{
+    list-style: none;
+    display: inline;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+li>a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+/* container  */
+
+.container{
+    text-align: center;
+    padding: 1rem;
+}
+h2{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem;
+}
+
+.quiz-form{
+    margin-top: 3rem;
+}
+
+.question-container{
+    font-size: 1.2rem;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.question-container>p{
+    margin: 0.5rem 0rem;
+}
+
+input{
+    margin: 0 0.5rem;
+}
+
+#submit{
+    font-size: 1.5rem;
+    border: 2px solid blueviolet;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(132, 0, 255);
+    color: white;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+.output{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    font-weight: bold;
+}
