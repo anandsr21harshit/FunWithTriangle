@@ -3,11 +3,13 @@ const submitBtn = document.querySelector("#submit");
 const output = document.querySelector(".output");
 
 const answers = [
-    "90°",
+    "80°",
     "one right angle",
     "12,16,20",
     "45°",
-    "85°"
+    "85°",
+    "equilateral",
+    "48"
 ];
 
 submitBtn.addEventListener("click",calculateScore);
@@ -22,6 +24,6 @@ function calculateScore(){
         }
         index++;
     }
-    output.innerText = `Your score is ${score} out of 5`;
+    output.innerText = `Your score is ${score} out of ${answers.length}`;
 }
 
