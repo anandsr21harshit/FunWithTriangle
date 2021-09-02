@@ -85,3 +85,10 @@ input{
     margin: 1rem auto;
     font-weight: bold;
 }
+
+@media screen and (max-width:600px){
+    .question-container{
+        width: 90%;
+    }
+    
+}
